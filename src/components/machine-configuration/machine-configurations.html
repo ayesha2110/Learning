@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="../template.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../contents/bootstrap/css/bootstrap.min.css" />
+
+    <script src="../../contents/bootstrap/js/bootstrap.min.js"></script>
+    <script>let $ = require('jquery');</script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="col">
+            <img class="logoimage" src="../../img/logo.PNG" alt="logo" />
+        </div>
+        <div class="col">
+            <h3 class="templateHeading">Machine Configuration</h3>
+        </div>
+        <div class="col">
+            <span class="date-time" id="date-time">
+                <script>document.write(new Date().toLocaleDateString() + ' - ' + new Date().toLocaleTimeString())</script>
+            </span>
+        </div>
+    </div>
+    <div class="main-section container">
+        <div class="row">
+            <div class="col">
+                <label><strong>Machine Configuration:</strong></label>
+                <table>
+                    <tr>
+                        <th>Name:</th>
+                        <td>John Doe</td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td>john.doe@example.com</td>
+                    </tr>
+                    <tr>
+                        <th>Phone:</th>
+                        <td>123-45-678</td>
+                    </tr>
+                    <tr>
+                        <th>Address 1:</th>
+                        <td>212-00-546</td>
+                    </tr>
+                    <tr>
+                        <th>Address 2:</th>
+                        <td>212-00-546</td>
+                    </tr>                    <tr>
+                        <th>Address 3:</th>
+                        <td>212-00-546</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col">
+                <label><strong>Factory Default:</strong></label>
+                <table>
+                    <tr>
+                        <th>Name:</th>
+                        <td class="yellow">John Doe</td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td class="yellow">john.doe@example.com</td>
+                    </tr>
+                    <tr>
+                        <th>Phone:</th>
+                        <td class="yellow">123-45-678</td>
+                    </tr>
+                    <tr>
+                        <th>Address 1:</th>
+                        <td class="yellow">212-00-546</td>
+                    </tr>
+                    <tr>
+                        <th>Address 2:</th>
+                        <td class="pink">212-00-546</td>
+                    </tr>                    <tr>
+                        <th>Address 3:</th>
+                        <td class="pink">212-00-546</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 3rem;">
+            <div class="col">
+                <label><strong>Machine Configuration:</strong></label>
+                <div class="toggleSwitch">
+                    <table>
+                        <tr>
+                            <th>Name:</th>
+                        </tr>
+                        <tr>
+                            <th>Email:</th>
+                        </tr>
+                        <tr>
+                            <th>Phone:</th>
+                        </tr>
+                        <tr>
+                            <th>Address:</th>
+                        </tr>
+                    </table>
+                    <div class="col">
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" checked class="custom-control-input" id="customSwitches1">
+                            <label class="custom-control-label" for="customSwitches1">ON</label>
+                        </div>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" checked class="custom-control-input" id="customSwitches2">
+                            <label class="custom-control-label" for="customSwitches2">ON</label>
+                        </div>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" checked class="custom-control-input" id="customSwitches3">
+                            <label class="custom-control-label" for="customSwitches3">ON</label>
+                        </div>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" checked class="custom-control-input" id="customSwitches4">
+                            <label class="custom-control-label" for="customSwitches4">ON</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <label><strong>Factory Default:</strong></label>
+                <table>
+                    <tr>
+                        <th>Name:</th>
+                        <td class="yellow">John Doe</td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td class="yellow">john.doe@example.com</td>
+                    </tr>
+                    <tr>
+                        <th>Phone:</th>
+                        <td class="yellow">123-45-678</td>
+                    </tr>
+                    <tr>
+                        <th>Address 1:</th>
+                        <td class="yellow">212-00-546</td>
+                    </tr>
+                    <tr>
+                        <th>Address 2:</th>
+                        <td class="yellow">212-00-546</td>
+                    </tr>                    <tr>
+                        <th>Address 3:</th>
+                        <td class="pink">212-00-546</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 3rem;">
+            <div class="col">
+                <label><strong>Machine Configuration:</strong></label>
+                <div class="pagination-col">
+                    <table>
+                        <tr>
+                            <th>Name:</th>
+                            <td>John Doe</td>
+                        </tr>
+                        <tr>
+                            <th>Email:</th>
+                            <td>john.doe@example.com</td>
+                        </tr>
+                        <tr>
+                            <th>Phone:</th>
+                            <td>123-45-678</td>
+                        </tr>
+                        <tr>
+                            <th>Address 1:</th>
+                            <td>212-00-546</td>
+                        </tr>
+                        <tr>
+                            <th>Address 2:</th>
+                            <td>212-00-546</td>
+                        </tr>
+                        <tr>
+                            <th>Address 3:</th>
+                            <td>212-00-546</td>
+                        </tr>
+                    </table>
+                    <div class="col" style="text-align: end;">
+                        <div class="col">
+                            <button class="btn btn-outline-dark">Next Page</button>
+                        </div>
+                        <div class="col" style="margin-top:5px;">
+                            <button class="btn btn-outline-dark">Previous Page</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" style="margin-top: 1.5rem;">
+            <div class="col">
+                <span><strong>Input or Condition</strong></span>
+                <div class="input-boxes">
+                    <input class="form-control" type="text" id="input-condition">
+                </div>
+            </div>
+            <div class="col">
+                <span><strong>Alarms & Errors</strong></span>
+                <div class="input-boxes">
+                    <input class="form-control" type="text" id="alarms-errosn">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

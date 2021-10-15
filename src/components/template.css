@@ -1,0 +1,62 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    align-items: center;
+}
+.templateHeading{
+    color:red;
+    text-align: center;
+    align-items: center;
+}
+.date-time{
+    float: right;
+}
+.logoimage{
+    width: 10rem;
+    height: 5rem;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th{
+    width: 20rem;
+}
+th{
+    background-color: rgb(143, 223, 216);
+}
+td{
+    background-color: rgb(213, 247, 244);;
+}
+.yellow{
+    background-color: rgb(235, 247, 78);
+}
+.pink{
+    background-color: rgb(243, 155, 214);;
+}
+.main-section {
+    margin-top: 10px;
+}
+.row{
+    margin-top: 10px;
+}
+.toggleSwitch{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col>label{
+    color:red;
+    font-weight:10;
+}
+.form-control:valid{
+    background-color: rgba(209, 209, 209, 0.979) !important;
+}
+.pagination-col{
+    display: flex;
+}
+button{
+    width: 12rem;
+}
+
+
+ 
